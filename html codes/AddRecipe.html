@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head><title>AddRecipe</title>
+	</head>
+	<body style="text-align: center;">
+		<h1>**Add Recipe**</h1>
+		<div style='background-color: red; padding: 1%; width: 300px; height: 35px; margin: auto;'>
+			<form action='/' method='get'>
+				<input type='submit' value='Logout' style='display:block; margin: auto; margin-bottom: 70px; padding: 5px; width: 70%;'/>
+			</form>
+		</div>
+		<div style="background-color: lightgreen; padding: 1%; width: 300px; height: 360px; margin: auto;">
+			<big>Enter recipe information : </big>
+			<br style="margin-bottom: 25px;">
+			<form action="/AddRecipe" method="post" style="text-align: center;">
+				<input name="title" type="text" placeholder="Title" style="display:block; margin: auto; margin-bottom: 15px; padding: 5px; width: 94%" />
+				<input name="minutes_to_ready" type="text" placeholder="Minutes to ready" style="display:block; margin: auto; margin-bottom: 15px; padding: 5px; width: 94%;" />
+				<input name="ingredients" type="text" placeholder="Ingredients" style="display:block; margin: auto; margin-bottom: 15px; padding: 5px; width: 94%;" />
+				<input name="tags" type="text" placeholder="Tags" style="display:block; margin: auto; margin-bottom: 15px; padding: 5px; width: 94%;" />
+				<input name="image_address" type='text' placeholder="Image address" style='display:block; margin: auto; margin-bottom: 15px; padding: 5px; width: 94%;' />
+					<p>is vegetarian : 
+						<input class="radiobutton" type="radio" name="_vegetarian_" value="Yes"> Yes
+						<input class="radiobutton" type="radio" name="_vegetarian_" value="No" style="margin-bottom: 15px;"> No
+					</p>
+				<button type="submit" style='display:block; padding: 7px; margin: auto; width: 30%;'>Save</button>
+			</form>
+		</div>
+	<body>
+<html>

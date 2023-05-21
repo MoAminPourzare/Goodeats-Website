@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DeleteRecipe</title>
+	</head>
+	<body style="text-align: center;">
+		<h1>**Delete Recipe**</h1>
+		<div style='background-color: red; padding: 1%; width: 300px; height: 35px; margin: auto;'>
+			<form action='/' method='get'>
+				<input type='submit' value='Logout' style='display:block; margin: auto; margin-bottom: 70px; padding: 5px; width: 70%;'/>
+			</form>
+		</div>
+		<div style="background-color: lightgreen; padding: 1%; width: 300px; height: 170px; margin: auto;">
+			<form action="/DeleteRecipe" method="post" style="text-align: center;">
+				<p>
+					<big>Enter the desired recipe id : </big>
+					<br style="margin-bottom: 25px;">
+					<input name="delete_id" type="text" placeholder="recipe id" style="display:block; margin: auto; margin-bottom: 30px; padding: 5px; width: 60%" />
+				</p>
+				<button type="submit" style='display:block; padding: 7px; margin: auto; width: 30%;'>Delete</button>
+			</form>
+		</div>
+	</body>
+</html>
